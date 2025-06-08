@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Student Predictor</title></head>
+<body>
+<h1>Enter Student Data</h1>
+<form action="/predict" method="post">
+    <label>Attendance:</label>
+    <input type="number" name="attendance" step="any" required><br><br>
+    <label>Internal Marks:</label>
+    <input type="number" name="internal_marks" step="any" required><br><br>
+    <label>Participation:</label>
+    <input type="number" name="participation" step="any" required><br><br>
+    <input type="submit" value="Predict">
+</form>
+</body>
+</html>
